@@ -1,0 +1,30 @@
+.page {
+	margin: 70px;
+}
+
+body {
+	background-image: url(bio-background.jpg);
+}
+
+img {
+	max-height: 200px;
+	display: block;
+	margin: auto;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+}
+
+a {
+	font-family: Arial;
+	text-align: center;
+}
+
+.links {
+	font-family: Arial;
+	text-align: center;
+}
