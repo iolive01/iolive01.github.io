@@ -21,7 +21,8 @@ h1 {
 p {
 	font-family: Arial;
 	text-align: center;
-	margin: 70px;
+	margin-left: 210px;
+	margin-right: 210px ;
 }
 
 .contact_info {
@@ -34,14 +35,19 @@ p {
 	display: inline-block;
 }
 */
+.hello {
+	display: block;
+	margin: auto;
+	max-height: 80px;
+	padding-top: 30px;
 
+}
 
 .portrait {
 	max-width: 30%;
 	max-height: 200px;
-	padding-left: 150px;
 	display: block;
-	margin: auto
+	margin: auto;
 	padding-top: 30px;
 }
 
