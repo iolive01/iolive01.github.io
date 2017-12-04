@@ -23,6 +23,9 @@ p {
 	margin: 70px;
 }
 
+.contact_info {
+	font-size: 30px;
+}
 /*ul {
 
 	font-family: Arial;
@@ -32,13 +35,17 @@ p {
 */
 
 
-img {
+.portrait {
 	max-width: 30%;
 	max-height: 200px;
-	text-align: center;
-	display: block;
-	margin: auto;
+
+	padding-left: 150px;
+float: left;
 	padding-top: 30px;
+}
+
+.description {
+	float:right;
 }
 
 .cover {
@@ -84,10 +91,10 @@ object {
     color: black;
 }
 /* Change the color of links on hover */
-.topnav a:hover {
+/*.topnav a:hover {
     background-color: #ff5c5c;
     color: black;
-}
+}*/
 
 
 }
