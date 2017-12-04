@@ -2,7 +2,8 @@ body {
 	
 }
 .page {
-	margin: 10px;
+	margin-left:  10px;
+	margin-right: 10px;
 }
 
 .list {
@@ -72,44 +73,60 @@ object {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: black;
     overflow: hidden;
+    display: flex;
+	justify-content: center;
+	padding-top: 30px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 17px; 
 }
 
 .resume_link:hover {
 	background-color: #99e265;
     color: black;
 }
+
+.contact_link:hover {
+	background-color: #b760e6;
+    color: black;
+}
+
+.project_link:hover {
+	background-color: #ff5c5c;
+    color: black;
+}
+
+.index_link:hover {
+	background-color: #5271ff;
+    color: black;
+}
+
+
+
 /* Change the color of links on hover */
 /*.topnav a:hover {
     background-color: #ff5c5c;
     color: black;
-}*/
-
-
 }
 
-ff5c5c - peach
-5271ff- blue
+*/
+/*- blue
 b760e6 - purple
 99e265 - green
-
+*/
 /* Add a color to the active/current link */
-.topnav a.active {
+/*.topnav a.active {
     background-color: #fff952;
-    color: white;
+    color: black;
 }
-
+*/
 .links {
 	font-family: Arial;
 	text-align: center;
