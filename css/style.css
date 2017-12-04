@@ -114,25 +114,6 @@ object {
     color: black;
 }
 
-
-
-/* Change the color of links on hover */
-/*.topnav a:hover {
-    background-color: #ff5c5c;
-    color: black;
-}
-
-*/
-/*- blue
-b760e6 - purple
-99e265 - green
-*/
-/* Add a color to the active/current link */
-/*.topnav a.active {
-    background-color: #fff952;
-    color: black;
-}
-*/
 .links {
 	font-family: Arial;
 	text-align: center;
