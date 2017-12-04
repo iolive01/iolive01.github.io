@@ -39,9 +39,9 @@ p {
 .portrait {
 	max-width: 30%;
 	max-height: 200px;
-
 	padding-left: 150px;
-float: left;
+	display: block;
+	margin: auto
 	padding-top: 30px;
 }
 
