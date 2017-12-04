@@ -1,8 +1,8 @@
 body {
-	background-image: url(bio-background.jpg)
+	
 }
 .page {
-	margin: 70px;
+	margin: 10px;
 }
 
 h1 {
@@ -16,15 +16,44 @@ p {
 	margin: 70px;
 }
 
+ul {
+
+	font-family: Arial;
+	margin: 70px;
+
+}
+
 img {
 	max-width: 30%;
 	max-height: 200px;
 	text-align: center;
-	display: inline-block;
+	display: block;
 	margin: auto;
+	padding-top: 30px;
 }
 
+.cover {
+	display: block;
+	margin:auto;
+	width: 80%;
+	text-align: center;
+	max-width: 50%;
+	max-width: 500px;
+} 
 
+a {
+	font-family: Arial;
+	text-align: center;
+}
+
+object {
+	display: block;
+	margin: auto;
+	padding: 30px;
+	width: 600px;
+	height: 830px;
+
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
@@ -41,15 +70,27 @@ img {
     font-size: 17px;
 }
 
+.resume_link:hover {
+	background-color: #99e265;
+    color: black;
+}
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ff5c5c;
     color: black;
 }
 
+
+}
+
+ff5c5c - peach
+5271ff- blue
+b760e6 - purple
+99e265 - green
+
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #fff952;
     color: white;
 }
 
